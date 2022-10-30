@@ -50,6 +50,7 @@ class DPTI_default_post_thumbnail{
 		// display a default featured image
 		add_filter( 'post_thumbnail_html', array( &$this, 'default_post_thumbnail_html' ), 20, 5 );
 		// display default thumbnail on post page
+		//This hook no longer works on gutenberg - see https://github.com/danielbachhuber/gutenberg-migration-guide/blob/master/filter-admin-post-thumbnail-html.md
 		add_filter( 'admin_post_thumbnail_html', array( &$this,'admin_default_post_thumbnail_html' ), 10, 2 );
 		// hook into has_post_thumbnail()
 		add_filter( 'has_post_thumbnail', array( &$this, 'has_post_thumbnail' ), 10, 3 );
