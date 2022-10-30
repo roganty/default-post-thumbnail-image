@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="512" height="512">
+	<title>Default Post Thumbnail Image Icon</title>
+                                    <!-- Created with Vector Paint - http://www.vectorpaint.yaks.com/ https://chrome.google.com/webstore/detail/hnbpdiengicdefcjecjbnjnoifekhgdo -->
+	<rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="#FFFFFF" stroke="none"/>
+	<g class="currentLayer">
+		<title>Layer 1</title>
+		<g class="" transform="rotate(4 160,155) " id="photo_all">
+			<rect fill="#484848" stroke="#484848" stroke-width="2" stroke-linejoin="round" stroke-dashoffset="" fill-rule="nonzero" id="photo_shadow" x="47" y="37" width="240" height="240" class="" fill-opacity="1" stroke-opacity="1"/>
+			<g class="" id="photo">
+				<rect fill="#dadada" stroke="#b6b6b6" stroke-width="2" stroke-linejoin="round" stroke-dashoffset="" fill-rule="nonzero" id="photo_paper" x="40" y="30" width="240" height="240" class="" transform=""/>
+				<rect fill="#919191" stroke="#b6b6b6" stroke-width="2" stroke-linejoin="round" stroke-dashoffset="" fill-rule="nonzero" id="photo_photo" x="50" y="40" width="220" height="200" class=""/>
+			</g>
+		</g>
+		<g class="" id="lines_all">
+			<path fill="#919191" fill-opacity="1" stroke="#b6b6b6" stroke-opacity="1" stroke-width="10" stroke-dasharray="none" stroke-linejoin="round" stroke-linecap="round" stroke-dashoffset="" fill-rule="nonzero" opacity="1" marker-start="" marker-mid="" marker-end="" d="M315,60 L472,60 " class="" id="line_1"/>
+			<path fill="#919191" fill-opacity="1" stroke="#b6b6b6" stroke-opacity="1" stroke-width="10" stroke-dasharray="none" stroke-linejoin="round" stroke-linecap="round" stroke-dashoffset="" fill-rule="nonzero" opacity="1" marker-start="" marker-mid="" marker-end="" d="M315,160 L472,160 " class="" id="line_2"/>
+			<path fill="#919191" fill-opacity="1" stroke="#b6b6b6" stroke-opacity="1" stroke-width="10" stroke-dasharray="none" stroke-linejoin="round" stroke-linecap="round" stroke-dashoffset="" fill-rule="nonzero" opacity="1" marker-start="" marker-mid="" marker-end="" d="M315,260 L472,260 " class="" id="line_3"/>
+			<path fill="#919191" fill-opacity="1" stroke="#b6b6b6" stroke-opacity="1" stroke-width="10" stroke-dasharray="none" stroke-linejoin="round" stroke-linecap="round" stroke-dashoffset="" fill-rule="nonzero" opacity="1" marker-start="" marker-mid="" marker-end="" d="M50,360 L472,360 " class="" id="line_4"/>
+			<path fill="#919191" fill-opacity="1" stroke="#b6b6b6" stroke-opacity="1" stroke-width="10" stroke-dasharray="none" stroke-linejoin="round" stroke-linecap="round" stroke-dashoffset="" fill-rule="nonzero" opacity="1" marker-start="" marker-mid="" marker-end="" d="M50,460 L472,460 " class="" id="line_5"/>
+		</g>
+	</g>
+</svg>
