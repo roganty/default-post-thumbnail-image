@@ -373,7 +373,9 @@ class DPTI_default_post_thumbnail{
 				$gsize =  $_wp_additional_image_sizes[$size]['width'];
 			}
 			
-			$rhtml = get_avatar( $dpti_image, $gsize );
+			//Inline CSS forces image to themes set size for post thumbnail 
+			$extra_attr = 'style="height: ' . $_wp_additional_image_sizes[$size]['height'] . 'px; width: ' . $_wp_additional_image_sizes[$size]['width'] . ';"';
+			$rhtml = get_avatar( $dpti_image, $gsize, '', '', array( 'extra_attr' => $extra_attr ) );
 			$rhtml = $this->change_avatar_class($rhtml, $size, $class);
 			
 		}elseif( $dpti_type == 'image' ){				
@@ -447,7 +449,8 @@ class DPTI_default_post_thumbnail{
 	
 	function has_post_thubmnail( $has_thumbnail, $post, $thumbnail_id ){
 		
-		if( is_admin() ) return $has_thumbnail;
+		//If in admin, or thumbnail has been disabled, return $has_thumbnail
+		if( is_admin() || $this->dpti_type == 'disabled' ) return $has_thumbnail;
 		else return true;
 		
 	}
